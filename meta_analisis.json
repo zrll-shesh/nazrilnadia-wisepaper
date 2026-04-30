@@ -1,0 +1,85 @@
+{
+  "optimal_k": 2,
+  "cluster_colors": {
+    "0": "#2563EB",
+    "1": "#16A34A"
+  },
+  "features": [
+    "aps_1315",
+    "aps_1618",
+    "aps_1924",
+    "tpt_feb",
+    "tpak_feb",
+    "gk_maret",
+    "pct_miskin_maret"
+  ],
+  "feature_labels": {
+    "aps_1315": "APS 13-15 Thn",
+    "aps_1618": "APS 16-18 Thn",
+    "aps_1924": "APS 19-24 Thn",
+    "tpt_feb": "TPT Februari",
+    "tpak_feb": "TPAK Februari",
+    "gk_maret": "Garis Kemiskinan",
+    "pct_miskin_maret": "% Penduduk Miskin"
+  },
+  "var_labels": {
+    "aps_1315": "APS 13-15 Thn",
+    "aps_1618": "APS 16-18 Thn",
+    "aps_1924": "APS 19-24 Thn",
+    "tpt_feb": "TPT Februari",
+    "tpak_feb": "TPAK Februari",
+    "gk_maret": "Garis Kemiskinan",
+    "pct_miskin_maret": "% Penduduk Miskin"
+  },
+  "fe_r2_within": 0.8594059024213077,
+  "fe_r2_overall": 0.22012991108786006,
+  "xgb_cv_r2_mean": 0.9261746541716916,
+  "xgb_cv_r2_std": 0.022265089674496117,
+  "xgb_cv_mae_mean": 0.8685184306926556,
+  "xgb_cv_rmse_mean": 1.2612759528634188,
+  "sil_score": 0.4891376495361328,
+  "db_score": 0.6354887632552514,
+  "ch_score": 54.17520930553195,
+  "paradox_provinces": [
+    "SULAWESI SELATAN",
+    "DKI JAKARTA",
+    "ACEH",
+    "SUMATERA UTARA",
+    "KALIMANTAN TENGAH",
+    "JAWA TIMUR",
+    "DI YOGYAKARTA",
+    "SULAWESI UTARA",
+    "SULAWESI TENGGARA",
+    "RIAU",
+    "SUMATERA BARAT",
+    "BALI",
+    "JAWA BARAT",
+    "BANTEN",
+    "JAWA TENGAH",
+    "KEP. BANGKA BELITUNG",
+    "KEP. RIAU",
+    "KALIMANTAN UTARA",
+    "JAMBI",
+    "KALIMANTAN TIMUR",
+    "KALIMANTAN SELATAN",
+    "BENGKULU"
+  ],
+  "underdog_provinces": [
+    "PAPUA",
+    "PAPUA SELATAN",
+    "PAPUA BARAT DAYA",
+    "MALUKU UTARA",
+    "NUSA TENGGARA BARAT",
+    "PAPUA BARAT",
+    "PAPUA TENGAH",
+    "PAPUA PEGUNUNGAN",
+    "MALUKU",
+    "KALIMANTAN BARAT",
+    "LAMPUNG"
+  ],
+  "sig_vars": [
+    "tpt_feb",
+    "pct_miskin_maret",
+    "gk_maret"
+  ]
+}
